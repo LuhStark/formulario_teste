@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo de Observação Comportamental - PROC: valores de referência para uma análise quantitativa| GN</title>
+    <link rel="stylesheet" href="Pontuacao.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend>Protocolo de Observação Comportamental -  PROC: valores de referência para uma análise quantitativa</legend>
+                <br>
+                <label for="pontuacao" class="inputUser">Pontuação</label>
+                <br><br>
+            <div>
+                <table border="1">
+                <tr>
+                    <td>Aspectos observados</td>
+                    <td>Pontuação máxima</td>
+                    <td>Pontuação alcançada</td>
+                </tr>
+                <tr>
+                    <td>1. Habilidades comunicativas (expressivas)</td>
+                    <td>60</td>
+                    <td>
+                        <input type="text" name="verbal" id="habilidade_comunicativa" value="" maxlength="2" class="inputUser">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. Compreensão da linguagem verbal</td>
+                    <td>40</td>
+                    <td>
+                        <input type="text" name="verbal" id="linguagem_verbal_resultado" value="" maxlength="2" class="inputUser">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3. Aspectos do desenvolvimento cognitivo</td>
+                    <td>50</td>
+                    <td>
+                        <input type="text" name="verbal" id="desenvolvimento_cognitivo" value="" maxlength="2" class="inputUser">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total da pontuação</td>
+                    <td>150</td>
+                    <td>
+                        <input type="text" name="pontos" id="pontos_total" value="" maxlength="3" 
+                        class="inputUser" onblur="calcular()">
+                    </td>
+                </tr>
+                </table>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
